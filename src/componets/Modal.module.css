@@ -1,0 +1,66 @@
+.modal {
+  position: fixed; /* Fija la posición */
+  top: 0; /* Desde arriba */
+  left: 0; /* Desde la izquierda */
+  width: 100%; /* Ancho completo */
+  height: 100%; /* Altura completa */
+  background-color: rgba(0, 0, 0, 0.5); /* Fondo oscuro semitransparente */
+  z-index: 1000; /* Asegura que esté sobre todos los elementos */
+  display: flex; /* Utiliza un modelo de caja flexible */
+  justify-content: center; /* Centra horizontalmente */
+  align-items: center; /* Centra verticalmente */
+  background-color: #aaaaaa73;
+  }
+  
+  /* Modal Content/Box */
+  .modalcontent {
+    z-index: 10;
+    background-color: #fefefe;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+  }
+  
+  /* The Close Button */
+  .close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  .btnOrder {
+    padding-top: 5px;
+    padding: 6px 13px;
+    cursor: pointer;
+    background-color: green;
+    color:  white;
+    border-radius: 20px;
+  }
+  .addButton {
+    padding-top: 5px;
+    background-color: green; /* Color de fondo */
+    color: white; /* Color del texto */
+    border: none; /* Quita el borde */
+    padding: 8px 16px; /* Espacio dentro del botón */
+    cursor: pointer; /* Cambia el cursor al pasar el ratón */
+    margin-right: 10px; /* Espacio entre botones */
+    border-radius: 25px;
+  }
+  .closeBtn {
+    padding-top: 5px;
+    background-color: rgb(62, 71, 62); /* Color de fondo */
+    color: white; /* Color del texto */
+    border: none; /* Quita el borde */
+    padding: 8px 16px; /* Espacio dentro del botón */
+    cursor: pointer; /* Cambia el cursor al pasar el ratón */
+    margin-right: 10px; /* Espacio entre botones */
+    border-radius: 25px;
+  }

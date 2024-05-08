@@ -1,0 +1,41 @@
+.wrapper{
+  text-align: center;
+  background-color: rgba(129, 129, 129, 0.164);
+}
+.fooditem{
+  grid-column: span 1;
+}
+.price{
+  font-weight: 700;
+}
+.title{
+  font-weight: bold;
+  font-size:200%;
+}
+.addButton {
+  padding-top: 5px;
+  background-color: green; /* Color de fondo */
+  color: white; /* Color del texto */
+  border: none; /* Quita el borde */
+  padding: 8px 16px; /* Espacio dentro del botón */
+  cursor: pointer; /* Cambia el cursor al pasar el ratón */
+  margin-right: 10px; /* Espacio entre botones */
+  border-radius: 25px;
+}
+
+.removeButton {
+  padding-top: 5px;
+  background-color: red; /* Color de fondo */
+  color: white; /* Color del texto */
+  border: none; /* Quita el borde */
+  padding: 8px 16px; /* Espacio dentro del botón */
+  cursor: pointer; /* Cambia el cursor al pasar el ratón */
+  border-radius: 25px;
+}
+@media only screen and (max-width: 575px){
+    
+
+      .fooditem{
+        grid-column: span 3;
+      }
+  }

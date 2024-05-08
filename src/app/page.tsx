@@ -90,7 +90,7 @@ export default function Home() {
       <div className={styles.header}>
         <img
           className={styles.headerImg}
-          src="/logo4"
+          src="/logo4.jpg"
           alt="San lorenzo web"
         />
       </div>
